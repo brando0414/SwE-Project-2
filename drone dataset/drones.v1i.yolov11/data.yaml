@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['drones']
+
+roboflow:
+  workspace: oklahoma-state-university-rcgwk
+  project: drones-hkscu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/oklahoma-state-university-rcgwk/drones-hkscu/dataset/1
