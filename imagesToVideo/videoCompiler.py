@@ -1,11 +1,7 @@
 import cv2
 import os
 
-inputFPS = 30
-image_folder = "input_images"
-output_video = "output.mp4"
-
-def images_to_video(image_folder, output_video, fps=inputFPS):
+def images_to_video(image_folder, output_video, fps=30):
     # Get a list of all JPEG images in the folder
     images = [img for img in os.listdir(image_folder) if img.endswith(".jpg") or img.endswith(".jpeg")]
     images.sort()  # Sort images by filename to maintain order
@@ -29,4 +25,5 @@ def images_to_video(image_folder, output_video, fps=inputFPS):
     video_writer.release()
     print(f"Video saved as {output_video}")
 
-images_to_video(image_folder, output_video, inputFPS)
+# Example usage
+images_to_video("input_images", "output.mp4", 30)
