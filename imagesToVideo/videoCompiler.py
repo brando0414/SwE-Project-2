@@ -26,4 +26,4 @@ def images_to_video(image_folder, output_video, fps=30):
     print(f"Video saved as {output_video}")
 
 # Example usage
-images_to_video("input_images", "output.mp4", 30)
+# images_to_video("input_images", "output.mp4", 30)

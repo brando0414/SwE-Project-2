@@ -26,4 +26,4 @@ def video_to_images(video_path, output_dir, quality=0.5):
     cap.release()
 
 # example usage
-video_to_images('input.mp4', 'output_images', 0.5)
+# video_to_images('input.mp4', 'output_images', 0.5)
