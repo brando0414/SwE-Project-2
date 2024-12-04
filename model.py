@@ -13,10 +13,10 @@
 from ultralytics import YOLO
 import torch
 print(torch.cuda.is_available())
-model = YOLO("yolo11n.pt")
+model = YOLO("runs/detect/train/weights/best.pt")
 
 # force to run on CPU by using device flag
 #results = model.predict(source="0", show=True, stream=True, classes=0, device='gpu')
 # train on GPU 1
 if __name__ == "__main__":
-    model.train(data="datasets/SwE-Project-2-7/data.yaml", epochs=250, imgsz=640, device=0)
+    model.train(data="C:\\Users\\brand\\Documents\\GitHub\\SwE-Project-2\\datasets\\SwE-Project-2-7\\data.yaml", epochs=250, imgsz=640, device=0)

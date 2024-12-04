@@ -10,7 +10,7 @@ import torch
 # rf = Roboflow(api_key="3Blxz6aswzjyShfdBHjk")
 # project = rf.workspace().project("swe-project-2")
 # model = project.version(5).model
-model = YOLO("runs/detect/train/weights/best.pt")
+model = YOLO("runs/detect/train4/weights/best.pt")
 
 def predict(input_image, output_image, con=0.40, ovl=30):
     # Make predictions
