@@ -74,7 +74,7 @@ def predict(input_image, output_image, con=0.40, ovl=30):
 
 # convert pikachu mp4 into individual images in the pikachu_vid_images directory
 folder_path = "pikachu_vid_images"
-video_to_images("pikachu_vid.mp4", folder_path, 1)
+video_to_images("demoVideos/pikachu_vid.mp4", folder_path, 1)
 
 # run a prediction on every frame/image and put them in the predicted_output_images directory
 file_num = 0
