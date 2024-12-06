@@ -17,3 +17,5 @@ torch or pytorch
 PIL or pillow
 
 The listed dependecies above can be installed using "pip install <dependency_name>" with the exception of pytorch which will require special installation instructions found here: https://pytorch.org/
+
+Our best runs so far are in "runs/detect/predict14" and our best model is in "runs/detect/train2".
