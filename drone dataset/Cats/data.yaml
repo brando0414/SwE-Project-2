@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['cat']
+
+roboflow:
+  workspace: artificial-intelligence-cf1xl
+  project: cats-akfji
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/artificial-intelligence-cf1xl/cats-akfji/dataset/2

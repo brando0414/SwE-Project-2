@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Cats', 'Pikachu', 'dogs', 'drones', 'human', 'person', 'pichu', 'pikachu']
+
+roboflow:
+  workspace: swe-project-2
+  project: swe-project-2
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/swe-project-2/swe-project-2/dataset/7
