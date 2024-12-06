@@ -1,3 +1,10 @@
+This repository contains all of our work for our Software Engineering Project 2
+The team members are:
+Nathan Johnson
+Jacob Riley
+Cory Thrutchley
+Brandon Collings
+
 This repository houses scripts to:
 generate an object prediction model using all datasets contained in the "datasets" folder using model.py, 
 validate the model using test images or videos in the root directory via test.py or using a webcam stream via the command "streamlit run testStream.py" in the Scripts directory,
